@@ -1,8 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Prism from "prismjs";
-import "prismjs/themes/prism-okaidia.css";
 import "prismjs/themes/prism.css";
-import "./CodeEditor.css";
+import "./syntachighlighter.css";
 
 const SyntaxHighlighter: React.FC = () => {
   const [highlightedCode, setHighlightedCode] = useState<string>("");
